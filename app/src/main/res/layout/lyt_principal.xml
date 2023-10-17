@@ -29,4 +29,16 @@
         app:backgroundTint="#009688"
         app:layout_constraintStart_toStartOf="@+id/btnRegistrarP"
         app:layout_constraintTop_toBottomOf="@+id/btnRegistrarP" />
+
+    <Button
+        android:id="@+id/btnDesarrolladorP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        android:onClick="desarrolladorP"
+        android:text="Desarrolladores"
+        app:backgroundTint="#009688"
+        app:layout_constraintStart_toStartOf="@+id/btnListarP"
+        app:layout_constraintTop_toBottomOf="@+id/btnListarP" />
 </androidx.constraintlayout.widget.ConstraintLayout>

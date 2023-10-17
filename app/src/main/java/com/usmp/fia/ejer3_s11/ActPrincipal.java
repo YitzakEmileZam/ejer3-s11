@@ -8,6 +8,8 @@ import android.view.View;
 
 import java.util.ArrayList;
 
+import Persona.ActPrincipalPersona;
+
 public class ActPrincipal extends AppCompatActivity {
     ArrayList<Alumno> listaAlumnos;
 
@@ -31,6 +33,12 @@ public class ActPrincipal extends AppCompatActivity {
         Bundle bundle= new Bundle();
         bundle.putSerializable("data",listaAlumnos);
         intent.putExtras(bundle);
+        startActivity(intent);
+    }
+
+    //para iniciar el layout de persona
+    public void desarrolladorP(View view){
+        Intent intent= new Intent(this, ActPrincipalPersona.class);
         startActivity(intent);
     }
 

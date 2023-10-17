@@ -27,6 +27,9 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name="Persona.ActPrincipalPersona"
+            android:exported="true" />
+        <activity
             android:name=".ActPrincipal"
             android:exported="true">
             <intent-filter>
